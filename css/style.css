@@ -4,3 +4,98 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* COMMON */
+body {
+  background-color: lightgrey;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+.divider {
+  border: 2px solid white;
+}
+
+.form-control {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* HEADER */
+.header {
+  padding-bottom: 10px;
+}
+
+.header img {
+  height: 50px;
+  vertical-align: middle;
+}
+
+.header .logo-text {
+  font-weight: 600;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+/* MAIN */
+/* Top menu */
+
+.main-top {
+  padding: 10px 0;
+}
+
+.unread {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.unread .number {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  /* centrare il numero in verticale */
+  line-height: 50px;
+  border-radius: 50%;
+  /* Centrare il numero in orizzontale */
+  text-align: center;
+  background-color: orange;
+  color: white;
+  /* Centrare lo span rispetto al testo adiacentes */
+  vertical-align: middle;
+}
+
+/* Emails list */
+.emails-list {
+  margin-top: 30px;
+}
+
+#test {
+  background-color: blue;
+}
+
+.emails-list li {
+  padding: 5px 3px;
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+
+.emails-list li.read {
+  background-color: white;
+}
